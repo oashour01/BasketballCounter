@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "cursedTimer";
+  src: url(./Font/CursedTimerUlil-Aznm.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+}
+
+#name {
+  color: #ff782a;
+  font-family: "cursedTimer";
+  text-align: center;
+}
+
+.main p {
+  font-family: "Open Sans", sans-serif;
+  color: #fdf5e5;
+  text-align: center;
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 675px;
+  height: 500px;
+  background-image: url(./images/kylie-osullivan-BfaBLVCBTI8-unsplash.jpg);
+  background-size: cover;
+  border: 5px solid #ff782a;
+  border-radius: 20px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 43px;
+  text-shadow: 1px 1px 4px #793a16;
+}
+
+.container h3 {
+  margin: 0 0 10px 0px;
+}
+
+#home-score-digit,
+#guest-score-digit {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fdf5e5ad;
+  width: 150px;
+  height: 120px;
+  font-family: "cursedTimer";
+  text-align: center;
+  font-size: 90px;
+  color: #ff782a;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+#home-score-digit {
+  padding-top: 10px;
+}
+
+.score-increment {
+  display: flex;
+  justify-content: space-around;
+}
+
+.score-increment button {
+  width: 45px;
+  height: 45px;
+  margin: 10px auto;
+  color: #ff782a;
+  background-color: #000000;
+  font-family: "cursedTimer";
+  font-size: 18px;
+  border: 2px solid #ff782a;
+  border-radius: 5px;
+}
+
+#reset-score {
+  position: absolute;
+  left: 50%;
+  top: 68%;
+  transform: translate(-50%, -50%);
+  color: #ff782a;
+  background-color: #000000;
+  font-family: "cursedTimer";
+  font-size: 20px;
+  border: 2px solid #ff782a;
+  border-radius: 5px;
+  padding: 8px 15px 5px 15px;
+}
